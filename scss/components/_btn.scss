@@ -6,7 +6,7 @@
   width: 170px;
   min-height: 44px;
   border: 1px solid transparent;
-  // border-radius: var(--btn-radius);
+  border-radius: var(--btn-radius);
   margin-right: auto;
   margin-left: auto;
   font-weight: 700;
@@ -14,7 +14,7 @@
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--white-text-color);
-  background-color: var(--accent-color);
+  background: linear-gradient(99.01deg, #ff9200 4.22%, #ffcc00 108.35%), #ff9200;
   cursor: pointer;
   transition: var(--transition-param);
 
