@@ -1,0 +1,45 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 170px;
+  min-height: 44px;
+  border: 1px solid transparent;
+  // border-radius: var(--btn-radius);
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  transition: var(--transition-param);
+
+  &:hover {
+    background-color: var(--white-hover);
+    color: var(--title-text-color);
+    border: 1px solid var(--accent-color);
+  }
+  &:focus {
+    background-color: var(--white-hover);
+    color: var(--title-text-color);
+    border: 1px solid var(--accent-color);
+  }
+
+  &__icon-send {
+    margin-left: 10px;
+  }
+}
+
+.hero__btn {
+  margin: 0 auto;
+}
+
+.footer-form__btn {
+  @media screen and (max-width: 1199.98px) {
+    margin-top: 20px;
+  }
+}
