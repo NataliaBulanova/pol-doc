@@ -5,6 +5,213 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Услуги и Цены</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__contacts">
+          <a href="./index.html" class="logo header__logo">
+            Польша<span class="header__logo--color">Документы</span></a
+          >
+          <ul class="header-contacts__list">
+            <li class="header-contacts__item">
+              <a
+                class="header-contacts__link"
+                href="mailto:viktor_bulanov@gmail.com"
+              >
+                <svg class="header-contacts__icon" width="16px" height="12px">
+                  <use href="./images/sprite.svg#icon-envelope"></use>
+                </svg>
+                viktor_bulanov@gmail.com</a
+              >
+            </li>
+            <li class="header-contacts__item">
+              <a class="header-contacts__link" href="tel:+380961111111">
+                <svg class="header-contacts__icon" width="10px" height="16px">
+                  <use href="./images/sprite.svg#icon-smartphone"></use>
+                </svg>
+                +48 096 111 11 11</a
+              >
+            </li>
+            <li class="team-social__item">
+              <a
+                href=""
+                class="team-social__link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="team-social__icon" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-telega"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-social__item">
+              <a
+                href=""
+                class="team-social__link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="team-social__icon" width="28px" height="28px">
+                  <use href="./images/sprite.svg#icon-viber"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-social__item">
+              <a
+                href=""
+                class="team-social__link header__social-link--watsap"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="team-social__icon" width="29px" height="29px">
+                  <use href="./images/sprite.svg#icon-watsap"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <button class="btn hero__btn" type="button" data-modal-open>
+                Заказать услугу
+              </button>
+            </li>
+          </ul>
+        </div>
+        <nav class="site-nav">
+          <ul class="site-nav__list">
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./index.html">О нас</a>
+            </li>
+            <li class="site-nav__item">
+              <a
+                class="site-nav__link site-nav__link--current"
+                href="./services.html"
+                >Услуги и Цены</a
+              >
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./partnership.html">Партнерам</a>
+            </li>
+
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="mobile-menu__btn" data-menu-button>
+          <svg class="menu-btn__icon" width="40" height="40">
+            <use
+              class="menu-btn__icon-open"
+              href="./images/sprite.svg#icon-menu"
+            ></use>
+            <use
+              class="menu-btn__icon-close"
+              href="./images/sprite.svg#icon-close-menu"
+            ></use>
+          </svg>
+        </button>
+      </div>
+      <h1 class="hero__title">Фирма в Польше</h1>
+    </header>
+    <section class="services section">
+      <div class="container services__container">
+        <h2 class="title">Услуги и Цены</h2>
+        <ul class="services__list">
+          <li class="services__item">
+            <h3 class="services__subtitle">Сопровождение</h3>
+            <span class="services__price">от 200 евро/выезд</span>
+            <p class="services__text">
+              Вариант — для организаций с большим количеством компьютеров,
+              собственным сервером, развитой технической инфраструктурой
+            </p>
+            <button class="btn">Заказать</button>
+          </li>
+          <li class="services__item">
+            <h3 class="services__subtitle">Регистрация фирмы</h3>
+            <span class="services__price">от 700 евро/фирма</span>
+            <p class="services__text">
+              Заключаем договор на выполнение конкретных задач, контролируем и
+              поддерживаем технические процессы в выбранном направлении
+            </p>
+            <button class="btn">Заказать</button>
+          </li>
+          <li class="services__item">
+            <h3 class="services__subtitle">
+              Функциональный технический аутсорсинг
+            </h3>
+            <span class="services__price">от 1000 евро/услуга</span>
+            <p class="services__text">
+              Разовые выезды для решения стихийных проблем или найм сотрудника
+              на время отсутствия штатного системного администратора
+            </p>
+            <button class="btn">Заказать</button>
+          </li>
+          <li class="services__item">
+            <h3 class="services__subtitle">
+              Функциональный технический аутсорсинг
+            </h3>
+            <span class="services__price">от 1000 евро/услуга</span>
+            <p class="services__text">
+              Разовые выезды для решения стихийных проблем или найм сотрудника
+              на время отсутствия штатного системного администратора
+            </p>
+            <button class="btn">Заказать</button>
+          </li>
+          <li class="services__item">
+            <h3 class="services__subtitle">
+              Функциональный технический аутсорсинг
+            </h3>
+            <span class="services__price">от 1000 евро/услуга</span>
+            <p class="services__text">
+              Разовые выезды для решения стихийных проблем или найм сотрудника
+              на время отсутствия штатного системного администратора
+            </p>
+            <button class="btn">Заказать</button>
+          </li>
+          <li class="services__item">
+            <h3 class="services__subtitle">
+              Функциональный технический аутсорсинг
+            </h3>
+            <span class="services__price">от 1000 евро/услуга</span>
+            <p class="services__text">
+              Разовые выезды для решения стихийных проблем или найм сотрудника
+              на время отсутствия штатного системного администратора
+            </p>
+            <button class="btn">Заказать</button>
+          </li>
+          <li class="services__item">
+            <h3 class="services__subtitle">
+              Функциональный технический аутсорсинг
+            </h3>
+            <span class="services__price">от 1000 евро/услуга</span>
+            <p class="services__text">
+              Разовые выезды для решения стихийных проблем или найм сотрудника
+              на время отсутствия штатного системного администратора
+            </p>
+            <button class="btn">Заказать</button>
+          </li>
+          <li class="services__item">
+            <h3 class="services__subtitle">
+              Функциональный технический аутсорсинг
+            </h3>
+            <span class="services__price">от 1000 евро/услуга</span>
+            <p class="services__text">
+              Разовые выезды для решения стихийных проблем или найм сотрудника
+              на время отсутствия штатного системного администратора
+            </p>
+            <button class="btn">Заказать</button>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
 </html>
