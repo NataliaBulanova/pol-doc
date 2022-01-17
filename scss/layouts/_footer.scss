@@ -34,7 +34,7 @@
 
   &:hover,
   &:focus {
-  color: var(--accent-color);
+    color: var(--accent-color);
   }
 }
 
@@ -118,10 +118,9 @@
 
   &:focus,
   &:hover {
-  color: var(--footer-grey-text);
-  background-color: transparent;
+    color: var(--footer-grey-text);
+    background-color: transparent;
   }
-
 }
 
 .footer__input::placeholder {
@@ -130,4 +129,8 @@
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: var(--footer-grey-text);
+}
+
+.accent {
+  color: var(--accent-color);
 }
